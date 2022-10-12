@@ -205,6 +205,7 @@ $('document').ready(function() {
 		});
 	}
 	
+	//게임 리셋
 	function resetGame() {
 		$('#highscores').fadeToggle(100, function() {
 			$('.redcircle').remove();
