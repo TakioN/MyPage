@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Maple Story</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header><a href="index.html"><img src="img/logo.png"></a></header>
+		
+		<div id="wrapper">
+			<nav class="clearfix">
+				<ul>
+					<li id="cygnus" class="nav_menu">기사단</li>
+					<li id="town" class="nav_menu">마을</li>
+					<li id="boss" class="nav_menu">보스</li>
+					<li id="play" class="nav_menu">플레이</li>
+				</ul>
+			</nav>
+			<div id="content">
+				<div id="cygnus-page">
+					<div><img id="cygnus-poster" src="img/cygnus.png"></div>
+					<div id="cygnus-selecter" class="clearfix">
+						<div id="cygnus-soul" style="background-color: yellow; border-radius: 50%;">
+							<img src="img/soulMaster.png">
+							<span style="color: black;">소울마스터</span>
+						</div>
+						<div id="cygnus-flame" style="background-color: orangered; border-radius: 50%;">
+							<img src="img/flamewizard.png">
+							<span style="color: black;">플레임위자드</span>
+						</div>
+						<div id="cygnus-wind" style="background-color: limegreen; border-radius: 50%;">
+							<img src="img/windbreaker.png">
+							<span style="color: black;">윈드브레이커</span>
+						</div>
+						<div id="cygnus-night" style="background-color: darkorchid; border-radius: 50%;">
+							<img src="img/nightwalker.png">
+							<span style="color: black;">나이트워커</span>
+						</div>
+						<div id="cygnus-striker" style="background-color: skyblue; border-radius: 50%;">
+							<img src="img/striker.png">
+							<span style="color: black;">스트라이커</span>
+						</div>
+					</div>
+					<div id="profile">
+						<div id="popup">
+							<img src="img/queen_cygnus.png">
+							<input type="button" id="exit-btn" value="exit">
+							<p></p>
+						</div>
+					</div>
+				</div>
+				
+				<div id="play-page" style="display: none;">
+					<a href="https://maplestory.nexon.com/Home/Main" id="banner"></a>
+					<div>Click Slime To Play Game</div>
+				</div>
+			</div>
+			<footer>&copy;Made By Jungbeen</footer>
+		</div>
+		<script src="character.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

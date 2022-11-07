@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+body {
+	background-image: url("img/maple.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 1080px;
+	margin-top: 40px;
+}
+header {
+	background-color: transparent;
+	text-align: center;
+	margin-top: 50px;
+}
+nav {
+	background-color: #FD841F;
+	border-radius: 20px;
+	
+}
+.nav_menu {
+	font-family: "maple", serif;
+	float: left;
+	font-size: 25px;
+	padding: 15px;
+	width: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	border-right: 1px dodgerblue dotted;
+	color: brown;
+}
+.nav_menu:last-child {
+	border-right: none;
+}
+.nav_menu:hover {
+	font-size: 30px;
+	padding: 10px 15px;
+}
+#content {
+	background-color: white;
+	margin-top: 60px;
+}
+#cygnus-poster {
+	width: 100%;
+	height: 600px;
+}
+#cygnus-selecter {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+#cygnus-selecter div {
+	padding: 30px;
+	padding-top: 50px;
+	width: 17%;
+	box-sizing: border-box;
+	float: left;
+	cursor: pointer;
+}
+#cygnus-selecter div:hover img{
+	transform: scale(1.2);
+}
+#cygnus-selecter img {
+	width: 100%;
+}
+#cygnus-selecter span {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	font-family: "maple", serif;
+	color: white;
+	border-radius: 50%;
+	font-size: 20px;
+	padding: 10px 0;
+}
+#profile {
+	background-color: rgba(0, 0, 0, 0.3);
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+#popup {
+	width: 100%;
+	max-width: 800px;
+	border-radius: 10px;
+	font-family: "maple";
+	line-height: 2em;
+	background-color: aliceblue;
+	box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.3);
+	/* display: flex;
+	align-items: center; */
+	padding: 20px;
+	padding-top: 40px;
+}
+#popup img {
+	float: left;
+	margin-right: 50px;
+	display: flex;
+	align-items: end;
+	margin-bottom: -20px;
+}
+#exit-btn {
+	float: right;
+	display: inline-block;
+	margin-top: -30px;
+	background-color: orange;
+	border-radius: 50%;
+	padding: 10px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+#exit-btn:hover {
+	transform: scale(1.2);
+}
+#popup p {
+	overflow: hidden;
+	font-size: 18px;
+}
+#play-page {
+	background-image: url("img/slime.png");
+	height: 774px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#banner {
+	position: absolute;
+	background-color: transparent;
+	top: 85px;
+	left: 194px;
+	bottom: 54px;
+	right: 185px;
+	display: block;
+}
+#play-page div {
+	position: absolute;
+	bottom: 15px;
+	font-family: "maple";
+	text-align: center;
+	padding-top: 20px;
+	left: 50%;
+	transform: translate(-50%);
+}
+footer {
+	text-align: center;
+	margin: 50px 0 30px 0;
+}
+
+
+/* clearfix */
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* Font */
+@font-face {
+	font-family: "maple";
+	src: url(font/mapleFont.ttf) format("truetype");
+}
