@@ -1,0 +1,25 @@
+잘 맞는
+
+entj - isfp
+entp - isfj
+intj - esfp
+intp - esfj
+estj - infp
+istj - enfp
+enfj - istp
+infj - estp
+
+안 맞는
+
+entj - isfj
+entp - isfp
+intj - esfj
+intp - esfp
+estj - infj
+istj - enfj
+istp - enfp
+estp - infp
+
+
+
+/* CSS */
