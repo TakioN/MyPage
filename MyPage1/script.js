@@ -15,6 +15,7 @@ for(var i = 0; i < qna.length; i++) isChecked[i] = false;
 $('#stBtn').on('click', () => {
 	$('#start').hide();
 	$('#content').show();
+	$('#wrapper').removeClass('start_wrapper');
 });
 
 //첫 페이지와 마지막 페이지 버튼 숨기기
@@ -109,6 +110,7 @@ $('#rsBtn').on('click', (e) => {
 	$('#content').hide();
 	makeRltList(mbti);
 	$('#result').show();
+	$('#wrapper').css('paddingBottom', '5vh');
 });
 
 //mbti가 무엇인지 판단하기
@@ -212,12 +214,3 @@ function printRest(mbti) {
 	
 	$('#partner').show();
 }
-
-
-makeRltList('infj');
-
-
-
-
-
-// 카카오톡 공유 (23.06.16)

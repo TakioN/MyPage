@@ -19,12 +19,13 @@ p {
 	min-height: 100vh;
 	background-color: #0030ff4a;
 }
+.start_wrapper {
+	padding: 10vh 0;
+}
 #start {
 	position: relative;
 	height: 80vh;
-	margin: 10vh 0;
 	background-color: white;
-	display: none;
 }
 #start::before {
 	content: '';
@@ -181,6 +182,7 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
 	font-size: 3vh;
 	text-align: center;
 	width: 100%;
+	margin-bottom: 5vh;
 }
 #answer p:hover {
 	cursor: pointer;
@@ -196,25 +198,17 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
 	right: 10px;
 }
 #rsBtn {
-	/* display: none; */
+	display: none;
 	position: absolute;
 	bottom: 5vh;
 	right: 10px;
 }
-/* #prBtn:hover, #nxBtn:hover {
-	cursor: pointer;
-} */
 
 
 
 #result {
 	text-align: center;
-	/* margin-top: -25px; */
-	/* display: none; */
-	/* background-color: brown;
-	height: 180px; */
-	/* display: flex;
-	justify-content: center; */
+	display: none;
 }
 .direct-result {
 	width: 80vw;
@@ -314,10 +308,6 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
 .rstLs:hover {
 	cursor: pointer;
 }
-
-/* .rstLs.active {
-	color: green;
-} */
 
 .rstLs_content {
 	margin-top: 16px;
